@@ -3,7 +3,11 @@
  */
 package hellomvc;
 
+import javax.servlet.Filter;
+
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+import hellomvc.filters.SampleFilter;
 
 /**
  * @author chopa
@@ -37,5 +41,13 @@ public class HelloApplication extends AbstractAnnotationConfigDispatcherServletI
 		// TODO Auto-generated method stub
 		return new String[] {"/"};
 	}
+
+	@Override
+	protected Filter[] getServletFilters() {
+		// TODO Auto-generated method stub
+		return new Filter[] {new SampleFilter()};
+	}
+	
+	
 
 }
