@@ -11,7 +11,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.result.ViewResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import hellomvc.controller.HelloController;
+import hellomvc.web1.controller.HelloController;
 
 public class HelloControllerStandaloneTest{
 	

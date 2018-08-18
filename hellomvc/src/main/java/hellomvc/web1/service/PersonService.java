@@ -1,7 +1,7 @@
 /**
  * 
  */
-package hellomvc.service;
+package hellomvc.web1.service;
 
 import org.springframework.stereotype.Component;
 

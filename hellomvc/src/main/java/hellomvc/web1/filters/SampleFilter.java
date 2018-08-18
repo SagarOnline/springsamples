@@ -1,7 +1,7 @@
 /**
  * 
  */
-package hellomvc.filters;
+package hellomvc.web1.filters;
 
 import java.io.IOException;
 

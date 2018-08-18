@@ -1,13 +1,14 @@
 /**
  * 
  */
-package hellomvc;
+package hellomvc.web1;
 
 import javax.servlet.Filter;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import hellomvc.filters.SampleFilter;
+import hellomvc.root.RootConfig;
+import hellomvc.web1.filters.SampleFilter;
 
 /**
  * @author chopa
@@ -21,7 +22,7 @@ public class HelloApplication extends AbstractAnnotationConfigDispatcherServletI
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
 		// TODO Auto-generated method stub
-		return null;
+		return new Class[] {RootConfig.class};
 	}
 
 	/* (non-Javadoc)
